@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Node Server</title>
+</head>
+
+<body>
+    <div>
+        <p>
+            <a href="/gettest?x=1&y=2">Get Test</a>
+        </p>
+        <p>
+            <a href="/web/customer">Get Customers</a>
+        </p>
+        <p>
+            <form method="post" action="/posttest">
+                <label for="input1">User Input</label>
+                <input type="text" id="input1" name="userInput" />
+                <button type="submit">Post Test</button>
+            </form>
+        </p>
+        <p>
+            <form method="post" action="/web/customer">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="firstName" />
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="lastName" />
+                <button type="submit">Add Customer</button>
+            </form>
+        </p>
+</body>
+
+</html>

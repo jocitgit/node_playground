@@ -1,0 +1,11 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.4.0",
+    "mongodb": "^3.3.3"
+  },
+  "author": "jflood"
+}
